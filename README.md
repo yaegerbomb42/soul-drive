@@ -1,35 +1,18 @@
-# read-spark-delight
+# Soul Drive
 
-This project is written in JavaScript and TypeScript.
+Soul Drive is a concept demo for an immersive 3D urban exploration and storytelling experience. It showcases a minimal prototype built with JavaScript, Three.js, and Tailwind CSS.
 
-## Overview
+This project currently demonstrates:
 
-This repository contains code for the "read-spark-delight" project.  
-Feel free to explore, contribute, and open issues or pull requests as you see fit.
+- A basic 3D scene using Three.js.
+- A simple chat command queue interface.
+- Placeholder stubs for future Firebase and PayPal integrations.
+
+The aim is to evolve this into a full open world where users can influence the main character (the "Soul") by queuing commands. Actions will persist using a database, and additional features like payment unlocking and AI-driven behaviors may be added in future versions.
 
 ## Getting Started
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yaegerbomb42/read-spark-delight.git
-    ```
-2. Install dependencies (if applicable):
-    ```bash
-    npm install
-    ```
-3. Run the project (customize as needed):
-    ```bash
-    npm start
-    ```
+1. Install dependencies (none required for the demo).
+2. Open `public/index.html` in a modern browser.
 
-## Contributing
-
-Pull requests are welcome! For significant changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-Specify the license here if applicable.
-
----
-
-Feel free to edit this README to better fit your project's needs.
+Feel free to expand on this skeleton to build the full experience described in the Soul Drive specification.

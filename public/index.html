@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Drive</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <header class="p-4 text-center text-2xl font-bold text-neon">Soul Drive</header>
+    <div id="scene-container" class="w-full h-96"></div>
+    <div class="p-4">
+        <input id="command-input" type="text" class="w-full p-2 rounded text-black" placeholder="Type a command like 'build a mall'...">
+        <button id="send-command" class="mt-2 px-4 py-2 bg-purple-600 rounded hover:bg-purple-500">Send</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
